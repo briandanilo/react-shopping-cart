@@ -1,20 +1,36 @@
-$big-font: 15rem;
-
-.jumbo {
-    color: #333;
-    font-size: $big-font;
-    margin: 0;
-    text-shadow: 1px 2px 1px #DEDEDE, 2px 3px 0 #FEFEFE, -1px -1px 0 #222;
+body {
+  margin: 1rem;
 }
 
-html {
-    body {
-        margin: 0;
-        padding: 0;
-        background: #CACACA;
-    }
+.shopping-cart {
+  float: right;
+  /* right: 10rem; */
+  /* position: absolute; */
+  display: inline-block;
+  margin-right: 200px;
+  margin-left: 1rem;
+
 }
 
-.active {
-    font-weight: bold;
+.shop-items {
+  display: inline-block;
+  list-style: none;
+}
+
+.single-shop-item p{
+  display: inline-block;
+  margin: 10px;
+}
+
+.add-to-cart {
+  float: right;
+  right: 10px;
+}
+
+.main {
+  position: absolute;
+}
+
+li {
+  list-style: none;
 }
